@@ -1,4 +1,4 @@
-package com.example.sms_singup_login_api.controllerclasses;
+package com.smsc.smsc_singup_login_api.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.sms_singup_login_api.dto_classes.LoginRequest;
-import com.example.sms_singup_login_api.dto_classes.SignupRequest;
-import com.example.sms_singup_login_api.serviceClasses.UserService;
+import com.smsc.smsc_singup_login_api.dto.LoginRequest;
+import com.smsc.smsc_singup_login_api.dto.SignupRequest;
+import com.smsc.smsc_singup_login_api.services.UserService;
 
 import jakarta.validation.Valid;
 

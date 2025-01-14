@@ -1,4 +1,4 @@
-package com.example.sms_singup_login_api.entityClasses;
+package com.smsc.smsc_singup_login_api.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

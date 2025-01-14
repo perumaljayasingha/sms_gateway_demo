@@ -1,9 +1,9 @@
-package com.example.sms_singup_login_api.repositoryClasses;
+package com.smsc.smsc_singup_login_api.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.sms_singup_login_api.entityClasses.UserMaster;
+import com.smsc.smsc_singup_login_api.entity.UserMaster;
 
 @Repository
 public interface UserMasterRepo extends JpaRepository<UserMaster, String>{

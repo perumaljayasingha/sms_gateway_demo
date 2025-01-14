@@ -1,4 +1,4 @@
-package com.example.sms_singup_login_api.dto_classes;
+package com.smsc.smsc_singup_login_api.dto;
 
 public class SignupResponse {
 

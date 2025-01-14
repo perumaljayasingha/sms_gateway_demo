@@ -1,17 +1,17 @@
-package com.example.sms_singup_login_api.serviceClasses;
+package com.smsc.smsc_singup_login_api.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.example.sms_singup_login_api.dto_classes.LoginRequest;
-import com.example.sms_singup_login_api.dto_classes.SMSwebResponse;
-import com.example.sms_singup_login_api.dto_classes.SignupRequest;
-import com.example.sms_singup_login_api.dto_classes.SignupResponse;
-import com.example.sms_singup_login_api.entityClasses.UserDetails;
-import com.example.sms_singup_login_api.entityClasses.UserMaster;
-import com.example.sms_singup_login_api.repositoryClasses.UserDetailsRepo;
-import com.example.sms_singup_login_api.repositoryClasses.UserMasterRepo;
+import com.smsc.smsc_singup_login_api.dto.LoginRequest;
+import com.smsc.smsc_singup_login_api.dto.SMSwebResponse;
+import com.smsc.smsc_singup_login_api.dto.SignupRequest;
+import com.smsc.smsc_singup_login_api.dto.SignupResponse;
+import com.smsc.smsc_singup_login_api.entity.UserDetails;
+import com.smsc.smsc_singup_login_api.entity.UserMaster;
+import com.smsc.smsc_singup_login_api.repositories.UserDetailsRepo;
+import com.smsc.smsc_singup_login_api.repositories.UserMasterRepo;
 
 @Service
 public class UserService {

@@ -8,12 +8,12 @@
 		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.smsc</groupId>
-	<artifactId>smsc_singup_login_api</artifactId>
-	<version>0.0.1</version>
+	<groupId>com.smsc.app</groupId>
+	<artifactId>smsc</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>smsc_singup_login_api</name>
-	<description>Demo project for Spring Boot</description>
+	<name>smsc</name>
+	<description>smsc for java Spring Boot and mysql project</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -54,7 +54,11 @@
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
-
+		<dependency>
+		  <groupId>org.springdoc</groupId>
+		  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		  <version>2.2.0</version>
+		</dependency>
 		
 	</dependencies>
 

@@ -1,10 +1,10 @@
-package com.smsc.smsc_singup_login_api;
+package com.civicsenseco.smsc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SmscSingupLoginApiApplicationTests {
+class SmscUserApplicationTests {
 
 	@Test
 	void contextLoads() {

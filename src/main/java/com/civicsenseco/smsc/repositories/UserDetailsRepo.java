@@ -1,11 +1,11 @@
-package com.smsc.smsc_singup_login_api.repositories;
+package com.civicsenseco.smsc.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.smsc.smsc_singup_login_api.entity.UserDetails;
+import com.civicsenseco.smsc.entity.UserDetails;
 
 @Repository
 public interface UserDetailsRepo extends JpaRepository<UserDetails, Integer> {

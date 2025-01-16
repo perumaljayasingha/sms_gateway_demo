@@ -1,4 +1,4 @@
-package com.smsc.smsc_singup_login_api.dto;
+package com.civicsenseco.smsc.dto;
 
 public class SignupResponse {
 

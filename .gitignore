@@ -1,6 +1,5 @@
 HELP.md
 .log/
-.gitignore/
 .gitattributes/
 target/
 .mvn/wrapper/maven-wrapper.jar

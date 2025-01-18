@@ -8,6 +8,8 @@ import com.civicsenseco.smsc.dto.LoginRequest;
 import com.civicsenseco.smsc.dto.SMSwebResponse;
 import com.civicsenseco.smsc.dto.SignupRequest;
 import com.civicsenseco.smsc.dto.SignupResponse;
+import com.civicsenseco.smsc.dto.UserProfile;
+import com.civicsenseco.smsc.dto.UserProfileUpdateRequest;
 import com.civicsenseco.smsc.entity.UserDetails;
 import com.civicsenseco.smsc.entity.UserMaster;
 import com.civicsenseco.smsc.repositories.UserDetailsRepo;
@@ -64,4 +66,37 @@ public class UserService {
 
         return new SMSwebResponse(user.getClientName(), "login Successfull..");
 	}
+
+	public UserProfile getProfile(String authToken) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public UserProfile updateProfile(String authToken, UserProfileUpdateRequest request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void logout(String authToken) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	 // 7.1. Forgot Password - Request Reset Link
+    public boolean forgotPassword(String email) {
+        // 1.1 Verify if the email exists in the database
+        // 1.2 If exists, generate a password reset token and send email with the link
+        // 1.3 Return true if email is sent, false if email doesn't exist
+        return true;  // Simulating success for now
+    }
+
+    // 7.2. Reset Password - Set New Password
+    public boolean resetPassword(String token, String newPassword) {
+        // 2.1 Validate the reset token
+        // 2.2 If valid, update the user's password
+        // 2.3 Return true if successful, false if invalid token
+        return true;  // Simulating success for now
+    }
+	
+	
 }

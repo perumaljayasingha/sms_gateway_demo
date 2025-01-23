@@ -20,8 +20,13 @@ import jakarta.validation.Valid;
 @RequestMapping("/admin")
 public class Admin {
 
+//	@Autowired
+	private final AdminService adminService;
+	
 	@Autowired
-	private AdminService adminService;
+	public Admin(AdminService adminService)	{
+		this.adminService = adminService;
+	}
 	
 	// 1. Update User Profile
     @PutMapping("/user/{userId}")
